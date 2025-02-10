@@ -5,7 +5,7 @@ body{
 	width:1100px;
 }
 .imageContainer{
-	
+	width:100%;
 }
 .first{
 	width:200px;
@@ -17,24 +17,25 @@ body{
 .third{
 	width:200px;	
 }
-.table{
-	border :3px double black;
-	margin:2px;
-	
+table{
+	width: 100%;
+    border-collapse: collapse;
+	border:3px double black;
+	margin:2px;	
 }
-th{
-	border :3px double black;
-	margin:2px;
-}
-
-td{
+th,td{
 	border :3px double black;
 	margin:2px;
 }
 
-.image{
-	max-width:200px;
-	margin:1px;
-	margin-left:3px;
+th img{
+	width:200px;
+	height:150px;
+	/* margin-left:3px; */
+}
+td img {
+	width:200px;
+	height:150px;
+	margin-left:px;
 }
 
