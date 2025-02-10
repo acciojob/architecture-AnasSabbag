@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+
+body{
+	background-color: #dae0de;
+	width:1100px;
+}
+.imageContainer{
+	
+}
+.first{
+	width:200px;
+}
+.middle{
+	width:600px;
+	text-align:center;
+}
+.third{
+	width:200px;	
+}
+.table{
+	border :3px double black;
+	margin:2px;
+	
+}
+th{
+	border :3px double black;
+	margin:2px;
+}
+
+td{
+	border :3px double black;
+	margin:2px;
+}
+
+.image{
+	max-width:200px;
+	margin:1px;
+	margin-left:3px;
+}
+
